@@ -1,0 +1,46 @@
+{
+  "lembrete": [
+    {
+      "id": 1,
+      "conteudo": "Pão, bife de hambúrguer 90g, salada e batata.",
+      "arquivado": true,
+      "prioridade": "",
+      "modificado": 1		
+    },
+    {
+      "id": 2,
+      "conteudo": "X-Búrguer, é uma coisa muito boa pra se comer. Faz super bem.",
+      "arquivado": true,
+      "prioridade": "",
+      "modificado": 1
+    },
+    {
+      "id": 3,
+      "conteudo": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, 2 fatia de bacon, salada e batata.",
+      "arquivado": true,
+      "prioridade": "",
+      "modificado": 1
+    },
+    {
+      "id": 4,
+      "conteudo": "Pão, 2 bifes de hambúrguer 90g, 2 fatias de queijo, 4 fatias de bacon, salada e batata.",
+      "arquivado": true,
+      "prioridade": "",
+      "modificado": 1
+    },
+    {
+      "id": 5,
+      "conteudo": "Coca cola 350ml, temos de fazer muito pra queimar essa parada.",
+      "arquivado": true,
+      "prioridade": "",
+      "modificado": 1
+    },
+    {
+      "id": 6,
+      "conteudo": "Coca cola 600ml. Não beba isso ai mano.",
+      "arquivado": true,
+      "prioridade": "",
+      "modificado": 1
+    }
+  ]
+}
