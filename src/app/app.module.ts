@@ -9,6 +9,7 @@ import { ListaLembreteComponent } from './paginas/lista-lembrete/lista-lembrete.
 import { FormLembreteComponent } from './compartilhado/form-lembrete/form-lembrete.component';
 import { FormsModule } from '@angular/forms';
 import { CriarLembreteComponent } from './paginas/criar-lembrete/criar-lembrete.component';
+import { EditarLembretesComponent } from './paginas/editar-lembretes/editar-lembretes.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CriarLembreteComponent } from './paginas/criar-lembrete/criar-lembrete.
     ErroMsgComponent,
     ListaLembreteComponent,
     FormLembreteComponent,
-    CriarLembreteComponent
+    CriarLembreteComponent,
+    EditarLembretesComponent
   ],
   imports: [
     BrowserModule,

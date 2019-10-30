@@ -7,6 +7,7 @@
             [class.is-invalid]="!prioridade.valid && prioridade.touched"
             id="prioridade"
             [(ngModel)]="lembrete.prioridade"
+            name="prioridade"
             required>
             <option [ngValue]="undefined">Selecione ...</option>
             <option value="BAIXA">BAIXA</option>
@@ -25,11 +26,11 @@
         row="3"
         placeholder="Seu lembrete..."
         name="conteudo"
-        [(ngModel)]="lembrete.conteudo"
+        [(ngModel)]="lembrete.conteudo"        
         #conteudo="ngModel"
         [class.is-invalid]="!conteudo.valid && conteudo.touched"
         required></textarea>
         <div *ngIf="!conteudo.valid && conteudo.touched" class="text-danger">Descreve o Lembrete</div>
     </div>
-    <button class="btm btn-primary" type="submit" [disabled]="!f.valid">Salvar</button>
+    <button class="btn btn-primary btn-block" type="submit" [disabled]="!f.valid">Salvar</button>
 </form>
