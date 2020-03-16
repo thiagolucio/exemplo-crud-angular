@@ -7,7 +7,7 @@ import { Lembrete } from '../interfaces/lembrete';
 @Injectable({
   providedIn: 'root'
 })
-export class LembreteService {  
+export class LembreteService {
 
   constructor(private http: HttpClient) { }
 
